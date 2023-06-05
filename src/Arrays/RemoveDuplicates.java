@@ -15,7 +15,9 @@ public class RemoveDuplicates {
         for(int i=0;i<size;i++){
             arr[i] = sc.nextInt();
         }
+        sc.close();
         return arr;
+        
     }
     static int removeDuplicatesInArray(int[] arr){
         int i = 0;

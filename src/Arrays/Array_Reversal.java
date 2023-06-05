@@ -47,5 +47,7 @@ public class Array_Reversal {
         }
         Reverse(array, size);
         Print(array, size);
+        sc.close();
    }
+   
 }
