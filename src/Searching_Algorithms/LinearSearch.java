@@ -1,4 +1,4 @@
-package Searching_Algorithms;
+//package Searching_Algorithms;
 import java.util.Scanner;
 
 public class LinearSearch {
@@ -28,4 +28,6 @@ public class LinearSearch {
         }
         return false;
     }
+
 }
+

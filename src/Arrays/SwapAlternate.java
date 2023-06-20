@@ -1,7 +1,7 @@
 package Arrays;
-import java.util.Scanner;
 
-class SwapAlternate {
+import java.util.Scanner;
+public class SwapAlternate {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int size = scanner.nextInt();
