@@ -8,8 +8,12 @@ public class Last_First_Occurance_of_Element_Leetcode {
             arr[i] = sc.nextInt();
         }
         int target = sc.nextInt();
-        System.out.println("First occurance of the element is " + leftOccurance(arr, target));
-        System.out.println("Last occurance of the element is " + rightOccurance(arr, target));
+        int leftIndex = leftOccurance(arr, target);
+        int rightIndex = rightOccurance(arr, target);
+        int[] output =  new int[2];
+        output[0] = leftIndex;
+        output[1] = rightIndex;
+        System.out.println(output[0] + ", " + output[1]);
         sc.close();
     }
     public static int leftOccurance(int[] arr, int target) {
