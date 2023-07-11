@@ -1,4 +1,4 @@
-package Arrays;
+//package Arrays;
 import java.util.Scanner;
 
 // Time complexity for this code is O(N) as for the first loop we only iterate over the array and for the second loop we also iterate over the array so the time complexity is O(N+N) = O(2N) where 2 is a constant and it can be neglected .
